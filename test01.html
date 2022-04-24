@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 660px;
+            height: 204px;
+        }
+        .pic{
+            width: 218px;
+            height: 100px;
+            border: 1px solid rgb(236,235,233);
+            float: left;
+        }
+        #box>div:nth-of-type(1),#box>div:nth-of-type(2),#box>div:nth-of-type(3){
+            border-top: 0;
+        }
+        #box>div:nth-of-type(1),#box>div:nth-of-type(4){
+            border-left: 0;
+        }
+        #box>div:nth-of-type(3),#box>div:nth-of-type(6){
+            border-right: 0;
+        }
+        .picture{
+            width: 60px;
+            height: 60px;
+            padding: 2px;
+            background-image: url(./图片素材/pic_01.jpg);
+            background-repeat: no-repeat;
+            background-position: 2px 2px;
+            position: relative;
+            left: 20px;
+            top:20px;
+            border: 1px solid gray;
+        }
+        .pic>div{
+            float: left;
+            
+        }
+        .text{
+            position: relative;
+            left: 25px;
+            top:20px;
+            font-size: 10px;
+            color: gray;
+        }
+        a{
+            color: rgb(102, 162, 240);
+            font-size: 15px;
+            text-decoration: none;
+        }
+        #p2{
+            background-image: url(./图片素材/pic_02.jpg);
+        }
+        #p3{
+            background-image: url(./图片素材/pic_03.jpg);
+        }
+        #p4{
+            background-image: url(./图片素材/pic_04.jpg);
+        }
+        #p5{
+            background-image: url(./图片素材/pic_05.jpg);
+        }
+        #p6{
+            background-image: url(./图片素材/pic_06.jpg);
+        }
+        h3{
+            text-indent: 20px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+    
+<body>
+    <h3>摄影社区热门小镇</h3>
+    <div id="box">
+        <div class="pic">
+            <div class="picture" id="p1"></div>
+            <div class="text">
+                <a href="">风景狙击手</a><br>
+                成员：80 <br>
+                作品：276 
+            </div>
+        </div>
+        <div class="pic">
+            <div class="picture" id="p2"></div>
+            <div class="text">
+                <a href="">叙事感</a><br>
+                成员：235 <br>
+                作品：116 
+            </div>
+        </div>
+        <div class="pic">
+            <div class="picture" id="p3"></div>
+            <div class="text">
+                <a href="">定焦视界</a><br>
+                成员：56 <br>
+                作品：456 
+            </div>
+        </div>
+        <div class="pic">
+            <div class="picture" id="p4"></div>
+            <div class="text">
+                <a href="">中画幅乐园</a><br>
+                成员：130 <br>
+                作品：239 
+            </div>
+        </div>
+        <div class="pic">
+            <div class="picture" id="p5"></div>
+            <div class="text">
+                <a href="">《卡啪》先锋...</a><br>
+                成员：78 <br>
+                作品：125 
+            </div>
+        </div>
+        <div class="pic">
+            <div class="picture" id="p6"></div>
+            <div class="text">
+                <a href="">植物的无声世界</a><br>
+                成员：235 <br>
+                作品：1258 
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
